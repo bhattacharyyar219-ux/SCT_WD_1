@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">MyWebsite</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="color-picker">
+                <button class="color-picker-btn" id="color-picker-btn">🎨</button>
+                <div class="color-options" id="color-options">
+                    <div class="color-option active" data-color="default" title="Default"></div>
+                    <div class="color-option" data-color="blue" title="Blue"></div>
+                    <div class="color-option" data-color="green" title="Green"></div>
+                    <div class="color-option" data-color="purple" title="Purple"></div>
+                    <div class="color-option" data-color="orange" title="Orange"></div>
+                    <div class="color-option" data-color="red" title="Red"></div>
+                </div>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Get In Touch</h1>
+                <p>Ready to start your next project? We'd love to hear from you and discuss how we can help.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Contact Information</h2>
+                <p>Reach out to us through any of the following channels, and we'll get back to you promptly.</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Email</h3>
+                        <p>hello@mywebsite.com<br>info@mywebsite.com</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Office</h3>
+                        <p>123 Web Street<br>Digital City, DC 12345</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Social Media</h3>
+                        <p>Follow us on Twitter, LinkedIn, and Instagram for updates and insights.</p>
+                    </div>
+                </div>
+
+                <div class="spacer">
+                    <h3>Send Us a Message</h3>
+                    <p>Have a specific project in mind? Fill out our contact form and we'll get back to you within 24 hours.</p>
+                    <p>We're always excited to discuss new opportunities and help bring your ideas to life.</p>
+                </div>
+
+                <div class="spacer">
+                    <h3>Business Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">MyWebsite</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="color-picker">
+                <button class="color-picker-btn" id="color-picker-btn">🎨</button>
+                <div class="color-options" id="color-options">
+                    <div class="color-option active" data-color="default" title="Default"></div>
+                    <div class="color-option" data-color="blue" title="Blue"></div>
+                    <div class="color-option" data-color="green" title="Green"></div>
+                    <div class="color-option" data-color="purple" title="Purple"></div>
+                    <div class="color-option" data-color="orange" title="Orange"></div>
+                    <div class="color-option" data-color="red" title="Red"></div>
+                </div>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our Website</h1>
+                <p>Experience our interactive navigation menu with smooth animations and responsive design.</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Scroll to See Navigation Effects</h2>
+                <p>This is a demonstration of an interactive navigation menu that changes appearance when you scroll. The navigation bar will become more transparent and change its background when you scroll down the page.</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Fixed Position</h3>
+                        <p>The navigation stays visible at all times as you scroll through the page.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Hover Effects</h3>
+                        <p>Menu items have smooth hover animations with color transitions.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Scroll Detection</h3>
+                        <p>The navigation changes style based on scroll position for better UX.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Responsive Design</h3>
+                        <p>Works perfectly on desktop, tablet, and mobile devices.</p>
+                    </div>
+                </div>
+
+                <div class="spacer">
+                    <h3>Keep Scrolling to See More Effects</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+
+                <div class="spacer">
+                    <h3>More Content to Scroll Through</h3>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div>
+
+                <div class="spacer">
+                    <h3>Final Section</h3>
+                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">MyWebsite</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link active">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="color-picker">
+                <button class="color-picker-btn" id="color-picker-btn">🎨</button>
+                <div class="color-options" id="color-options">
+                    <div class="color-option active" data-color="default" title="Default"></div>
+                    <div class="color-option" data-color="blue" title="Blue"></div>
+                    <div class="color-option" data-color="green" title="Green"></div>
+                    <div class="color-option" data-color="purple" title="Purple"></div>
+                    <div class="color-option" data-color="orange" title="Orange"></div>
+                    <div class="color-option" data-color="red" title="Red"></div>
+                </div>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Our Services</h1>
+                <p>Comprehensive web development and design services tailored to your business needs.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>What We Offer</h2>
+                <p>From concept to launch, we provide end-to-end solutions that drive results and exceed expectations.</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Web Design</h3>
+                        <p>Custom, responsive designs that reflect your brand and engage your audience across all devices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Development</h3>
+                        <p>Modern, scalable web applications built with the latest technologies and best practices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>E-commerce</h3>
+                        <p>Complete online store solutions with secure payment processing and inventory management.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>SEO Optimization</h3>
+                        <p>Search engine optimization strategies to improve your online visibility and drive organic traffic.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Maintenance</h3>
+                        <p>Ongoing support and maintenance to keep your website running smoothly and securely.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Consulting</h3>
+                        <p>Strategic guidance to help you make informed decisions about your digital presence.</p>
+                    </div>
+                </div>
+
+                <div class="spacer">
+                    <h3>Our Process</h3>
+                    <p>We follow a proven methodology that ensures every project is delivered on time, within budget, and exceeds expectations.</p>
+                    <p>Our collaborative approach means you're involved every step of the way, from initial concept to final launch and beyond.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

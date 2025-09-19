@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">MyWebsite</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="color-picker">
+                <button class="color-picker-btn" id="color-picker-btn">🎨</button>
+                <div class="color-options" id="color-options">
+                    <div class="color-option active" data-color="default" title="Default"></div>
+                    <div class="color-option" data-color="blue" title="Blue"></div>
+                    <div class="color-option" data-color="green" title="Green"></div>
+                    <div class="color-option" data-color="purple" title="Purple"></div>
+                    <div class="color-option" data-color="orange" title="Orange"></div>
+                    <div class="color-option" data-color="red" title="Red"></div>
+                </div>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Our Portfolio</h1>
+                <p>Explore our recent projects and see the quality of work we deliver for our clients.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <p>Each project represents our commitment to excellence and innovation in web development.</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>E-commerce Platform</h3>
+                        <p>A modern, responsive online store with advanced filtering, secure checkout, and inventory management.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Corporate Website</h3>
+                        <p>A professional business website with custom CMS, blog integration, and multilingual support.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Mobile App</h3>
+                        <p>A cross-platform mobile application with real-time features and offline functionality.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Restaurant Website</h3>
+                        <p>An elegant dining website with online reservations, menu management, and social media integration.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Portfolio Site</h3>
+                        <p>A creative portfolio website showcasing artwork with smooth animations and interactive galleries.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Educational Platform</h3>
+                        <p>An online learning management system with course tracking, assessments, and progress monitoring.</p>
+                    </div>
+                </div>
+
+                <div class="spacer">
+                    <h3>Client Testimonials</h3>
+                    <p>"Working with this team was an absolute pleasure. They delivered exactly what we needed and exceeded our expectations." - Sarah Johnson, CEO</p>
+                    <p>"The attention to detail and user experience focus really sets them apart from other developers we've worked with." - Michael Chen, Marketing Director</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
